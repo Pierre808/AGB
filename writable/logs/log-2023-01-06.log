@@ -1,0 +1,235 @@
+CRITICAL - 2023-01-06 12:39:09 --> Undefined array key 2
+in APPPATH\Controllers\Leihgabe.php on line 30.
+ 1 APPPATH\Controllers\Leihgabe.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 2', 'APPPATH\\Controllers\\Leihgabe.php', 30)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Leihgabe->alleLeihgaben()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Leihgabe))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 12:41:03 --> Undefined array key "name"
+in APPPATH\Controllers\Leihgabe.php on line 34.
+ 1 APPPATH\Controllers\Leihgabe.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'APPPATH\\Controllers\\Leihgabe.php', 34)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Leihgabe->alleLeihgaben()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Leihgabe))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 12:47:24 --> syntax error, unexpected token "}"
+in APPPATH\Controllers\Leihgabe.php on line 37.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Leihgabe.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Leihgabe')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Leihgabe')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\Leihgabe', true)
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 12:47:31 --> date_format(): Argument #1 ($object) must be of type DateTimeInterface, string given
+in APPPATH\Controllers\Leihgabe.php on line 36.
+ 1 APPPATH\Controllers\Leihgabe.php(36): date_format('2023-01-06 12:29:11', 'H:i:s Y-m-d')
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Leihgabe->alleLeihgaben()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Leihgabe))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 12:48:42 --> date_format(): Argument #1 ($object) must be of type DateTimeInterface, int given
+in APPPATH\Controllers\Leihgabe.php on line 36.
+ 1 APPPATH\Controllers\Leihgabe.php(36): date_format(1673004551, 'H:i:s Y-m-d')
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Leihgabe->alleLeihgaben()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Leihgabe))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 12:49:35 --> date_create_from_format() expects at least 2 arguments, 1 given
+in APPPATH\Controllers\Leihgabe.php on line 36.
+ 1 APPPATH\Controllers\Leihgabe.php(36): date_create_from_format('2023-01-06 12:29:11')
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Leihgabe->alleLeihgaben()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Leihgabe))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 12:49:57 --> date_format(): Argument #1 ($object) must be of type DateTimeInterface, int given
+in APPPATH\Controllers\Leihgabe.php on line 36.
+ 1 APPPATH\Controllers\Leihgabe.php(36): date_format(1673004551, 'H:i:s Y-m-d')
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Leihgabe->alleLeihgaben()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Leihgabe))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 12:54:47 --> Undefined variable $info
+in APPPATH\Views\Leihgabe\alleLeihgaben.php on line 23.
+ 1 APPPATH\Views\Leihgabe\alleLeihgaben.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $info', 'APPPATH\\Views\\Leihgabe\\alleLeihgaben.php', 23)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Leihgabe\\alleLeihgaben.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Leihgabe/alleLeihgaben', [], true)
+ 5 APPPATH\Controllers\Leihgabe.php(41): view('Leihgabe/alleLeihgaben', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Leihgabe->alleLeihgaben()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Leihgabe))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 13:08:08 --> Class "App\Controllers\LeihgabenHelper" not found
+in APPPATH\Controllers\Leihgabe.php on line 60.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Leihgabe->leihgabeAnzeigen('5')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Leihgabe))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 13:10:02 --> Undefined array key "id"
+in APPPATH\Views\Leihgabe\LeihgabeAnzeigen.php on line 22.
+ 1 APPPATH\Views\Leihgabe\LeihgabeAnzeigen.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Views\\Leihgabe\\LeihgabeAnzeigen.php', 22)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Leihgabe\\LeihgabeAnzeigen.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Leihgabe/leihgabeAnzeigen', [], true)
+ 5 APPPATH\Controllers\Leihgabe.php(72): view('Leihgabe/leihgabeAnzeigen', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Leihgabe->leihgabeAnzeigen('5')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Leihgabe))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 13:12:59 --> Undefined variable $leihgabe
+in APPPATH\Views\Leihgabe\LeihgabeAnzeigen.php on line 29.
+ 1 APPPATH\Views\Leihgabe\LeihgabeAnzeigen.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $leihgabe', 'APPPATH\\Views\\Leihgabe\\LeihgabeAnzeigen.php', 29)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Leihgabe\\LeihgabeAnzeigen.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Leihgabe/leihgabeAnzeigen', [], true)
+ 5 APPPATH\Controllers\Leihgabe.php(82): view('Leihgabe/leihgabeAnzeigen', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Leihgabe->leihgabeAnzeigen('5')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Leihgabe))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 13:13:18 --> Undefined array key "bezeichnung"
+in APPPATH\Views\Leihgabe\LeihgabeAnzeigen.php on line 29.
+ 1 APPPATH\Views\Leihgabe\LeihgabeAnzeigen.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "bezeichnung"', 'APPPATH\\Views\\Leihgabe\\LeihgabeAnzeigen.php', 29)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Leihgabe\\LeihgabeAnzeigen.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Leihgabe/leihgabeAnzeigen', [], true)
+ 5 APPPATH\Controllers\Leihgabe.php(82): view('Leihgabe/leihgabeAnzeigen', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Leihgabe->leihgabeAnzeigen('5')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Leihgabe))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 13:14:14 --> Undefined array key "id"
+in APPPATH\Views\Leihgabe\LeihgabeAnzeigen.php on line 30.
+ 1 APPPATH\Views\Leihgabe\LeihgabeAnzeigen.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Views\\Leihgabe\\LeihgabeAnzeigen.php', 30)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Leihgabe\\LeihgabeAnzeigen.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Leihgabe/leihgabeAnzeigen', [], true)
+ 5 APPPATH\Controllers\Leihgabe.php(82): view('Leihgabe/leihgabeAnzeigen', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Leihgabe->leihgabeAnzeigen('5')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Leihgabe))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 13:19:54 --> Undefined array key "active"
+in APPPATH\Controllers\Leihgabe.php on line 73.
+ 1 APPPATH\Controllers\Leihgabe.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "active"', 'APPPATH\\Controllers\\Leihgabe.php', 73)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Leihgabe->leihgabeAnzeigen('5')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Leihgabe))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 13:26:44 --> syntax error, unexpected double-quote mark, expecting ")"
+in APPPATH\Controllers\Leihgabe.php on line 67.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Leihgabe.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Leihgabe')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Leihgabe')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\Leihgabe', true)
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-06 15:50:56 --> mysqli_sql_exception: Unknown column 'active' in 'where clause' in D:\xampp\htdocs\AGB\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\AGB\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp\htdocs\AGB\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\AGB\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\AGB\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\AGB\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\AGB\system\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\xampp\htdocs\AGB\app\Libraries\LeihtHelper.php(68): CodeIgniter\BaseModel->findAll()
+#7 D:\xampp\htdocs\AGB\app\Controllers\Home.php(22): App\Libraries\LeihtHelper::getUeberfaellig()
+#8 D:\xampp\htdocs\AGB\system\CodeIgniter.php(927): App\Controllers\Home->index()
+#9 D:\xampp\htdocs\AGB\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 D:\xampp\htdocs\AGB\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\AGB\index.php(55): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-01-06 15:50:56 --> Unknown column 'active' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `leiht`
+WHERE `active` = \'1\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `leiht`
+WHERE `active` = \'1\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `leiht`
+WHERE `active` = \'1\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `leiht`
+WHERE `active` = :active:', [...], false)
+ 5 SYSTEMPATH\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Libraries\LeihtHelper.php(68): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Home.php(22): App\Libraries\LeihtHelper::getUeberfaellig()
+ 9 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+10 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 15:51:09 --> Undefined constant "CodeIgniter\Debug\VENDORPATH"
+in SYSTEMPATH\Debug\Exceptions.php on line 177.
+ 1 SYSTEMPATH\Debug\Exceptions.php(157): CodeIgniter\Debug\Exceptions->isFakerDeprecationError(8192, 'date_create_from_format(): Passing null to parameter #2 ($datetime) of type string is deprecated', 'APPPATH\\Libraries\\LeihtHelper.php', 72)
+ 2 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'date_create_from_format(): Passing null to parameter #2 ($datetime) of type string is deprecated', 'APPPATH\\Libraries\\LeihtHelper.php', 72)
+ 3 APPPATH\Libraries\LeihtHelper.php(72): date_create_from_format('Y-m-d H:i:s', null)
+ 4 APPPATH\Controllers\Home.php(22): App\Libraries\LeihtHelper::getUeberfaellig()
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 15:51:11 --> Undefined constant "CodeIgniter\Debug\VENDORPATH"
+in SYSTEMPATH\Debug\Exceptions.php on line 177.
+ 1 SYSTEMPATH\Debug\Exceptions.php(157): CodeIgniter\Debug\Exceptions->isFakerDeprecationError(8192, 'date_create_from_format(): Passing null to parameter #2 ($datetime) of type string is deprecated', 'APPPATH\\Libraries\\LeihtHelper.php', 72)
+ 2 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'date_create_from_format(): Passing null to parameter #2 ($datetime) of type string is deprecated', 'APPPATH\\Libraries\\LeihtHelper.php', 72)
+ 3 APPPATH\Libraries\LeihtHelper.php(72): date_create_from_format('Y-m-d H:i:s', null)
+ 4 APPPATH\Controllers\Home.php(22): App\Libraries\LeihtHelper::getUeberfaellig()
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 15:53:15 --> Undefined constant "CodeIgniter\Debug\VENDORPATH"
+in SYSTEMPATH\Debug\Exceptions.php on line 177.
+ 1 SYSTEMPATH\Debug\Exceptions.php(157): CodeIgniter\Debug\Exceptions->isFakerDeprecationError(8192, 'date_create_from_format(): Passing null to parameter #2 ($datetime) of type string is deprecated', 'APPPATH\\Libraries\\LeihtHelper.php', 72)
+ 2 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'date_create_from_format(): Passing null to parameter #2 ($datetime) of type string is deprecated', 'APPPATH\\Libraries\\LeihtHelper.php', 72)
+ 3 APPPATH\Libraries\LeihtHelper.php(72): date_create_from_format('Y-m-d H:i:s', null)
+ 4 APPPATH\Controllers\Home.php(22): App\Libraries\LeihtHelper::getUeberfaellig()
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 15:53:16 --> Undefined constant "CodeIgniter\Debug\VENDORPATH"
+in SYSTEMPATH\Debug\Exceptions.php on line 177.
+ 1 SYSTEMPATH\Debug\Exceptions.php(157): CodeIgniter\Debug\Exceptions->isFakerDeprecationError(8192, 'date_create_from_format(): Passing null to parameter #2 ($datetime) of type string is deprecated', 'APPPATH\\Libraries\\LeihtHelper.php', 72)
+ 2 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'date_create_from_format(): Passing null to parameter #2 ($datetime) of type string is deprecated', 'APPPATH\\Libraries\\LeihtHelper.php', 72)
+ 3 APPPATH\Libraries\LeihtHelper.php(72): date_create_from_format('Y-m-d H:i:s', null)
+ 4 APPPATH\Controllers\Home.php(22): App\Libraries\LeihtHelper::getUeberfaellig()
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 15:53:34 --> Undefined constant "CodeIgniter\Debug\VENDORPATH"
+in SYSTEMPATH\Debug\Exceptions.php on line 177.
+ 1 SYSTEMPATH\Debug\Exceptions.php(157): CodeIgniter\Debug\Exceptions->isFakerDeprecationError(8192, 'date_create_from_format(): Passing null to parameter #2 ($datetime) of type string is deprecated', 'APPPATH\\Libraries\\LeihtHelper.php', 73)
+ 2 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'date_create_from_format(): Passing null to parameter #2 ($datetime) of type string is deprecated', 'APPPATH\\Libraries\\LeihtHelper.php', 73)
+ 3 APPPATH\Libraries\LeihtHelper.php(73): date_create_from_format('Y-m-d H:i:s', null)
+ 4 APPPATH\Controllers\Home.php(22): App\Libraries\LeihtHelper::getUeberfaellig()
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 15:53:35 --> Undefined constant "CodeIgniter\Debug\VENDORPATH"
+in SYSTEMPATH\Debug\Exceptions.php on line 177.
+ 1 SYSTEMPATH\Debug\Exceptions.php(157): CodeIgniter\Debug\Exceptions->isFakerDeprecationError(8192, 'date_create_from_format(): Passing null to parameter #2 ($datetime) of type string is deprecated', 'APPPATH\\Libraries\\LeihtHelper.php', 73)
+ 2 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'date_create_from_format(): Passing null to parameter #2 ($datetime) of type string is deprecated', 'APPPATH\\Libraries\\LeihtHelper.php', 73)
+ 3 APPPATH\Libraries\LeihtHelper.php(73): date_create_from_format('Y-m-d H:i:s', null)
+ 4 APPPATH\Controllers\Home.php(22): App\Libraries\LeihtHelper::getUeberfaellig()
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 15:53:36 --> Undefined constant "CodeIgniter\Debug\VENDORPATH"
+in SYSTEMPATH\Debug\Exceptions.php on line 177.
+ 1 SYSTEMPATH\Debug\Exceptions.php(157): CodeIgniter\Debug\Exceptions->isFakerDeprecationError(8192, 'date_create_from_format(): Passing null to parameter #2 ($datetime) of type string is deprecated', 'APPPATH\\Libraries\\LeihtHelper.php', 73)
+ 2 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'date_create_from_format(): Passing null to parameter #2 ($datetime) of type string is deprecated', 'APPPATH\\Libraries\\LeihtHelper.php', 73)
+ 3 APPPATH\Libraries\LeihtHelper.php(73): date_create_from_format('Y-m-d H:i:s', null)
+ 4 APPPATH\Controllers\Home.php(22): App\Libraries\LeihtHelper::getUeberfaellig()
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

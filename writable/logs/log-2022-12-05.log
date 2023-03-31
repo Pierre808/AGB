@@ -1,0 +1,41 @@
+CRITICAL - 2022-12-05 12:33:53 --> syntax error, unexpected token "}", expecting "," or ";"
+in APPPATH\Views\layouts\default.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layouts/default', [], true)
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Home/index', [], true)
+ 4 APPPATH\Controllers\Home.php(21): view('Home/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-05 12:34:07 --> Undefined variable $menuName
+in APPPATH\Views\layouts\default.php on line 39.
+ 1 APPPATH\Views\layouts\default.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $menuName', 'APPPATH\\Views\\layouts\\default.php', 39)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layouts\\default.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layouts/default', [], true)
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Home/index', [], true)
+ 6 APPPATH\Controllers\Home.php(21): view('Home/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-05 13:23:24 --> Invalid file: Gegenstand/alleGegenstande.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Gegenstand/alleGegenstande.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Gegenstand/alleGegenstande', [], true)
+ 3 APPPATH\Controllers\Gegenstand.php(21): view('Gegenstand/alleGegenstande', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Gegenstand->alleGegenstande()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gegenstand))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-05 13:36:42 --> Unclosed '{' on line 99
+in APPPATH\Views\layouts\default.php on line 150.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layouts/default', [], true)
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Gegenstand/gegenstandRegistrieren', [], true)
+ 4 APPPATH\Controllers\Gegenstand.php(30): view('Gegenstand/gegenstandRegistrieren', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Gegenstand->gegenstandRegistrieren()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gegenstand))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
